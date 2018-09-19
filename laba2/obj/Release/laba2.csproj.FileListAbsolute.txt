@@ -4,3 +4,9 @@ D:\Учеба\ООП\laba2\obj\Release\laba2.csprojAssemblyReference.cache
 D:\Учеба\ООП\laba2\obj\Release\laba2.csproj.CoreCompileInputs.cache
 D:\Учеба\ООП\laba2\obj\Release\laba2.exe
 D:\Учеба\ООП\laba2\obj\Release\laba2.pdb
+D:\Учеба\ООП\OOP\laba2\bin\Release\laba2.exe
+D:\Учеба\ООП\OOP\laba2\bin\Release\laba2.pdb
+D:\Учеба\ООП\OOP\laba2\obj\Release\laba2.csprojAssemblyReference.cache
+D:\Учеба\ООП\OOP\laba2\obj\Release\laba2.csproj.CoreCompileInputs.cache
+D:\Учеба\ООП\OOP\laba2\obj\Release\laba2.exe
+D:\Учеба\ООП\OOP\laba2\obj\Release\laba2.pdb

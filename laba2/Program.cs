@@ -110,7 +110,7 @@ namespace lab2
             // 64-разрядной платформе. Представлен системным типом 
             // System.Object, который является базовым для всех других 
             // типов и классов .NET.
-            
+
             //1b/d
 
             object oa = 22;
@@ -145,9 +145,67 @@ namespace lab2
             object obj = val;     // присваивание сопровождается упаковкой
             int valUnboxed = (int)obj; // приведение вызовет распаковку
 
+            //1e
+
+            int? z1 = 5;
+            Nullable<int> z2 = 5;
+            if (z1 == z2)
+                Console.WriteLine("объекты равны");
+            else
+                Console.WriteLine("объекты не равны");
+
+            
+
+
+            //2
+
+            string s1 = "Значимость этих проблем настолько очевидна ";
+            string s2 = "что укрепление и развитие структуры влечет за собой процесс внедрения ";
+            string s3 = "и модернизации модели развития.";
+            string mess;
+            mess = s1 + s2 + s3;
+            string str1 = String.Copy(s1);
+            bool check = s1.Contains("этих");
+
+            Console.WriteLine(String.Compare(s1, "Hello World?"));
+            Console.WriteLine(mess + str1);
+            Console.WriteLine(check);
+
+            string[] split = s2.Split(new Char[] { ' ' });
+
+            foreach (string s in split)
+            {
+
+                if (s.Trim() != "")
+                    Console.WriteLine(s);
+
+
+            }
+
+            String original = "Равным образом укрепление   структуры требуют определения и уточнения позиций";
+            Console.WriteLine("The original string: '{0}'", original);
+            String modified = original.Insert(26, "и развитие ");
+            Console.WriteLine("The modified string: '{0}'", modified);
+
+            string text = "Хороший день";
+            // индекс последнего символа
+            int ind = text.Length - 1;
+            // вырезаем последний символ
+            text = text.Remove(ind);
+            Console.WriteLine(text);
+
+
+
+
+
+
+
+
+
+
             Console.ReadLine();
 
 
         }
-    }
+    }   
 }
