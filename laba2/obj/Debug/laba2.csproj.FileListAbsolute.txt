@@ -1,0 +1,6 @@
+D:\Учеба\ООП\laba2\bin\Debug\laba2.exe
+D:\Учеба\ООП\laba2\bin\Debug\laba2.pdb
+D:\Учеба\ООП\laba2\obj\Debug\laba2.csprojAssemblyReference.cache
+D:\Учеба\ООП\laba2\obj\Debug\laba2.csproj.CoreCompileInputs.cache
+D:\Учеба\ООП\laba2\obj\Debug\laba2.exe
+D:\Учеба\ООП\laba2\obj\Debug\laba2.pdb
