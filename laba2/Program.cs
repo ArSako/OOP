@@ -194,17 +194,20 @@ namespace lab2
             text = text.Remove(ind);
             Console.WriteLine(text);
 
+            StringBuilder sb = new StringBuilder("По своей сути рыбатекст является альтернативой традиционному lorem ipsum, ");
+            // удаляем 20 символов, начиная с 3-го
+            sb.Remove(3, 20);
+            Console.WriteLine(sb);
 
-
-
-
-
+            StringBuilder sb2 = new StringBuilder("Равным консультация");
+            sb.Append("!");
+            sb.Insert(7, " образом");
+            Console.WriteLine(sb2);
 
 
 
 
             Console.ReadLine();
-
 
         }
     }   
