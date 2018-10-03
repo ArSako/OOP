@@ -131,13 +131,13 @@ namespace lab2
             var k = 20;
             var f = 3.14F;
             var o = true;
-            var i = -129;
+            var w = -129;
 
             Console.WriteLine(k.GetType().ToString());
             Console.WriteLine(hell.GetType().ToString());
             Console.WriteLine(f.GetType().ToString());
             Console.WriteLine(o.GetType().ToString());
-            Console.WriteLine(i.GetType().ToString());
+            Console.WriteLine(w.GetType().ToString());
 
             //1c
 
@@ -203,7 +203,23 @@ namespace lab2
             sb.Append("!");
             sb.Insert(7, " образом");
             Console.WriteLine(sb2);
+            
+            //3
 
+
+            int n = 5;
+            int m = 4;
+            int[,] mas = new int[n, m];
+            Random rn = new Random();
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < m; j++)
+                    mas[i, j] = rn.Next(11) - 5;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                    Console.Write(String.Format("{0,3}", mas[i, j]));
+                Console.WriteLine();
+            }
 
 
 
